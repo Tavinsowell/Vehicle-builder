@@ -38,7 +38,7 @@ class Motorbike extends Vehicle {
     this.wheels = wheels.length === 2 ? wheels : [new Wheel(), new Wheel()];
 
     // TODO: The constructor should check if the wheels array has 2 elements and create 2 new default Wheel objects if it does not
-    
+
   }
 
   // TODO: Implement the wheelie method
@@ -54,6 +54,12 @@ class Motorbike extends Vehicle {
 
     // TODO: The method should log the details of the Motorbike
     // TODO: The details should include the VIN, make, model, year, weight, top speed, color, and wheels
+    console.log(`VIN: ${this.vin}`);
+    console.log(`Make: ${this.make}`);
+    console.log(`Model: ${this.model}`);
+    console.log(`Year: ${this.year}`);
+    console.log(`Weight: ${this.weight} lbs`);
+    console.log(`Top Speed: ${this.topSpeed} mph`);
     console.log(`Color: ${this.color}`);
     console.log(`Wheels: ${this.wheels.map((wheel, index) => `Wheel ${index + 1}: ${wheel}`).join(', ')}`);
   }
