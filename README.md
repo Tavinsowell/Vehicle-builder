@@ -1,7 +1,7 @@
 # Vehicle-builder
 
 ## Description
-The purpose of this application is to properly dementrate my ability to make use of inquirer and the command line interface by adding missing componets in Motorbike.ts, Trucks.ts, and Cli.ts.
+The purpose of this application is to properly demonstrate my ability to use Inquirer and the command-line interface by adding missing components in Motorbike.ts, Trucks.ts, and Cli.ts.
 ## Getting Started
 
 ### Dependencies
